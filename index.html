@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>For My Love ❤️</title>
+
+<link rel="stylesheet" href="./index.css">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&family=Sacramento&family=Dancing+Script:wght@400;700&display=swap" rel="stylesheet">
+
+</head>
+<body>
+
+<!-- Particle canvas background -->
+<canvas id="particleCanvas"></canvas>
+
+<!-- Floating hearts overlay -->
+<div class="hearts"></div>
+
+<!-- ===== HERO ===== -->
+<section class="hero">
+    <div class="hero-content">
+        <h1 class="glowing-text">For My Beautiful Girl ❤️</h1>
+        <p class="typewriter">Keep scrolling, every section hides a surprise for you...</p>
+        <div class="scroll-indicator">
+            <div class="mouse">
+                <div class="wheel"></div>
+            </div>
+            <span>Scroll Down</span>
+        </div>
+    </div>
+</section>
+
+<!-- ===== CHANGED MY LIFE ===== -->
+<section class="reveal section-life">
+    <div class="floating-emoji left">✨</div>
+    <div class="floating-emoji right">💫</div>
+    <h2 class="reveal-child">You Changed My Life ✨</h2>
+    <p class="reveal-child delay-1">
+        Before you, days were ordinary.
+    </p>
+    <p class="reveal-child delay-2">
+        After you, every moment became a memory.
+    </p>
+</section>
+
+<!-- ===== QUOTE ===== -->
+<section class="reveal quote">
+    <div class="quote-marks">"</div>
+    <blockquote class="reveal-child">
+        If I had to choose again,<br>
+        I would still choose you.
+    </blockquote>
+    <div class="quote-marks closing">"</div>
+</section>
+
+<!-- ===== GALLERY ===== -->
+<section class="gallery reveal">
+    <h2 class="reveal-child">Our Moments Together 📸</h2>
+    <div class="gallery-grid">
+        <div class="card reveal-child delay-1">
+            <div class="card-inner">
+                <img src="photo1.jpg" alt="Us">
+                <div class="card-overlay">
+                    <span>Our Smile ❤️</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="card reveal-child delay-2">
+            <div class="card-inner">
+                <img src="photo2.jpg" alt="Us">
+                <div class="card-overlay">
+                    <span>My Favorite Memory ✨</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="card reveal-child delay-3">
+            <div class="card-inner">
+                <img src="photo3.jpg" alt="Us">
+                <div class="card-overlay">
+                    <span>Forever Us 🌸</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ===== 10 REASONS ===== -->
+<section class="reveal reasons">
+    <h2 class="reveal-child">10 Reasons I Love You ❤️</h2>
+    <div class="reasons-grid">
+        <div class="reason-card reveal-child delay-1"><span class="reason-emoji">😊</span><span>Your Smile</span></div>
+        <div class="reason-card reveal-child delay-2"><span class="reason-emoji">💖</span><span>Your Kind Heart</span></div>
+        <div class="reason-card reveal-child delay-3"><span class="reason-emoji">🌸</span><span>Your Care</span></div>
+        <div class="reason-card reveal-child delay-1"><span class="reason-emoji">😂</span><span>Your Laugh</span></div>
+        <div class="reason-card reveal-child delay-2"><span class="reason-emoji">✨</span><span>Your Support</span></div>
+        <div class="reason-card reveal-child delay-3"><span class="reason-emoji">🎵</span><span>Your Voice</span></div>
+        <div class="reason-card reveal-child delay-1"><span class="reason-emoji">🌎</span><span>Your Soul</span></div>
+        <div class="reason-card reveal-child delay-2"><span class="reason-emoji">🤗</span><span>Your Hugs</span></div>
+        <div class="reason-card reveal-child delay-3"><span class="reason-emoji">🌙</span><span>Your Presence</span></div>
+        <div class="reason-card reveal-child delay-2"><span class="reason-emoji">❤️</span><span>Because You're You</span></div>
+    </div>
+</section>
+
+<!-- ===== COUNTER ===== -->
+<section class="counter reveal">
+    <h2 class="reveal-child">We've Been Together</h2>
+    <div id="daysCounter" class="reveal-child delay-1">
+        <span class="counter-number" data-target="0">0</span>
+        <span class="counter-label">Days ❤️</span>
+    </div>
+    <div class="counter-sub reveal-child delay-2">...and counting every beautiful moment</div>
+</section>
+
+<!-- ===== LOVE LETTER ===== -->
+<section class="reveal surprise">
+    <h2 class="reveal-child">A Secret Heart 💌</h2>
+    <div class="envelope-container reveal-child delay-1">
+        <div class="envelope" id="envelope">
+            <div class="envelope-flap"></div>
+            <div class="envelope-body">
+                <button id="loveBtn">
+                    <span class="btn-text">Open My Heart</span>
+                    <span class="btn-icon">💌</span>
+                </button>
+            </div>
+        </div>
+    </div>
+    <div id="secret" class="love-letter">
+        <div class="letter-content">
+            <p>You are my favorite notification,</p>
+            <p>favorite smile,</p>
+            <p>favorite person,</p>
+            <p>favorite everything. ❤️</p>
+        </div>
+    </div>
+</section>
+
+<!-- ===== FINALE ===== -->
+<section class="reveal final">
+    <canvas id="fireworkCanvas"></canvas>
+    <h1 class="finale-title">I Love You ❤️</h1>
+    <p class="finale-text reveal-child delay-1">
+        Thank you for every smile,<br>
+        every call,<br>
+        every memory,<br>
+        every moment.
+    </p>
+    <h2 class="finale-sub reveal-child delay-2">Forever & Always ✨</h2>
+    <div class="infinite-heart reveal-child delay-3">
+        <div class="heart-beat">❤️</div>
+    </div>
+</section>
+
+<script src="script.js"></script>
+
+</body>
+</html>
